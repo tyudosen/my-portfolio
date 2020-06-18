@@ -3,7 +3,9 @@ const path = require('path')
 
 const port = process.env.PORT || 3001
 
-const publicPath = path.join(__dirname, '..client/build')
+const publicPath = path.join(__dirname, '../client/build')
+console.log(publicPath);
+
 
 
 const app = express()
