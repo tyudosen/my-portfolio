@@ -4,21 +4,15 @@ import {Grid, Cell} from 'react-mdl'
 
 
 const MainPage = () =>(
-    <div style={{width: '100%', margin: 'auto'}} >
-        <Grid className='mainPage-grid'>
-            <Cell col={12}>
-                <img
-                    className='avatar-img'
-                    src='/img/avatar.png'
-                    alt='avatar'
-                />
+    <div className='banner'>
+        <div className='text-banner'>
+            <h2>Full Stack Developer</h2>
+            <hr/>
+            <p>
+                JavaScript | NodeJs | React | HTML/CSS | Express | MongoDB
+            </p>
 
-                <div className='banner-text'>
-                    <h1>Full Stack Developer</h1>
-                    <hr/>
-                    <p>JavaScript | NodeJs | React | HTML/CSS | Bootstrap | Express | MongoDB </p>
-
-                    <div className='social-links'>
+            <div className='social-links'>
                         <a href='http://google.com' target='_blank' rel='noopener noreferrer'>
                             <i className='fa fa-linkedin-square' aria-hidden='true' />
                         </a>
@@ -27,9 +21,15 @@ const MainPage = () =>(
                             <i class="fa fa-github-square" aria-hidden="true"></i>
                         </a>
                     </div>
-                </div>
-            </Cell>
-        </Grid>
+            </div>
+            
+        <div className='img'>
+            <img
+                className='avatar'
+                src='/img/avatar.png'
+                alt='avatar'
+            />
+        </div>
     </div>
 )
 
