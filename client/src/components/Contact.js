@@ -7,11 +7,11 @@ const Contact = () => (
         <div className='contact-item'>
             <h2>Toyoabasi Udosen</h2>
             <img
-                className='avatar'
+                className='avatar-two'
                 src='/img/avatar.png'
                 alt='avatar'
             />
-            <p>
+            <p className='about'> 
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fermentum tristique justo, eget consequat nulla sagittis eget. Curabitur quis sollicitudin magna, a euismod sem. Fusce mollis placerat metus, sed volutpat ipsum lobortis eget. Vestibulum ac nisl neque. Maecenas a molestie leo, a lacinia nisl. Proin dolor augue, rhoncus in molestie eget, convallis in elit. Ut sem ante, cursus molestie mollis vitae, tempor a ex. Pellentesque eu porta enim. Mauris eros purus, gravida vel lacinia in, vehicula sed leo. In sed dui nunc. Aenean vitae magna magna. Etiam maximus pulvinar felis a vulputate. 
             </p>
         </div>

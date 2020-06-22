@@ -19,9 +19,17 @@
 }
 
 
-.avatar{
+.avatar1{
     height: 250px;
     order: 1;
+}
+
+.avatar-two{
+    height: 250px;
+    order: 1;
+    background: #1D4350;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #A43931, #1D4350);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #A43931, #1D4350); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .text-banner{
@@ -114,6 +122,13 @@
         flex-direction: column;
         position: static;
         margin-top: 5em;
+    }
+
+    .about{
+        text-align: justify;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding-top: 2em;
     }
    
     

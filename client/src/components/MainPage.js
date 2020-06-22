@@ -25,7 +25,7 @@ const MainPage = () =>(
             
         <div className='img'>
             <img
-                className='avatar'
+                className='avatar-one'
                 src='/img/avatar.png'
                 alt='avatar'
             />
