@@ -15,7 +15,7 @@ const MyHeader = () => (
               <NavLink to='/contact'>Contact me</NavLink>
           </Navigation>
       </Header>
-      <Drawer title="Title">
+      <Drawer>
           <Navigation>
             <NavLink to='/'>Home</NavLink>
             <NavLink to='/projects'>Projects</NavLink>

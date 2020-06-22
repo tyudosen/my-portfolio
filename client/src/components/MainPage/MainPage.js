@@ -1,5 +1,5 @@
 import React from 'react'
-import '../App.css'
+import './MainPage.css'
 import {Grid, Cell} from 'react-mdl'
 
 

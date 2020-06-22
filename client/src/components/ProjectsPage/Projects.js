@@ -1,5 +1,5 @@
 import React from 'react'
-import '../App.css'
+import './Projects.css'
 import {Grid, Cell, Card, CardTitle, CardActions, Button, CardMenu, IconButton, CardText} from 'react-mdl'
 
 const Projects = () => (

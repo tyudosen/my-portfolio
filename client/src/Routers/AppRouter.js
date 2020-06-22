@@ -1,9 +1,9 @@
 import React from 'react'
 import { Route, Switch } from 'react-router-dom'
-import MainPage from '../components/MainPage'
-import Contact from '../components/Contact'
-import Projects from '../components/Projects'
-import Resume from '../components/Resume'
+import MainPage from '../components/MainPage/MainPage'
+import Contact from '../components/ContactPage/Contact'
+import Projects from '../components/ProjectsPage/Projects'
+import Resume from '../components/Resume/Resume'
 
 
 const AppRouter = () => (

@@ -1,0 +1,48 @@
+.contact-container {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 2em;
+}
+
+.avatar-two{
+    height: 250px;
+    order: 1;
+    background: #1D4350;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #A43931, #1D4350);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #A43931, #1D4350); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.contact-item{
+    flex-basis: 40%;
+    background: white;
+    text-align: center;
+
+}
+
+.contact-list{
+    display: flex;
+    justify-content: center;
+}
+
+@media(max-width: 800px){
+    .projects-grid{
+        flex-direction: column;
+    }
+
+    .contact-container{
+        flex-direction: column;
+        position: static;
+        margin-top: 5em;
+    }
+
+    .about{
+        text-align: justify;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding-top: 2em;
+    }
+    
+}

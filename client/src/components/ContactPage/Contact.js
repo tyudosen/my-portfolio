@@ -1,6 +1,6 @@
 import React from 'react'
 import { List, ListItem, ListItemContent } from 'react-mdl'
-import '../App.css'
+import './Contact.css'
 
 const Contact = () => (
     <div className='contact-container'>
