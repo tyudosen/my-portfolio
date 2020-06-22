@@ -112,7 +112,8 @@
 
     .contact-container{
         flex-direction: column;
-        padding-top: 5em;
+        position: static;
+        margin-top: 5em;
     }
    
     
