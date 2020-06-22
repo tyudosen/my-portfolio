@@ -4,15 +4,8 @@ import PDFViewer from 'pdf-viewer-reactjs'
 const Resume = () => {
     return (
         <div className='resume'>
-        <PDFViewer
-            document={{
-                url: '/img/ty.pdf',
-            }}
-            navbarOnTop={true}
-            css='view'
-            hideRotation={true}
-
-        />
+            <object data='/img/ty.pdf' type='application/pdf' width='100%' height='100%'>
+            </object>
         </div>
     )
 }
