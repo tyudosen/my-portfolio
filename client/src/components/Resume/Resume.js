@@ -1,6 +1,6 @@
 import React from 'react'
 import './Resume.css'
-import PDFViewer from 'pdf-viewer-reactjs'
+
  
 const Resume = () => {
     return (

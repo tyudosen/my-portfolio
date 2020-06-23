@@ -2,8 +2,9 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+
 }
 
 .project-card{
-    margin: 20px
+    margin: 20px;
 }

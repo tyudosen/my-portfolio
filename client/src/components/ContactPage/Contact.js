@@ -8,7 +8,7 @@ const Contact = () => (
             <h2>Toyoabasi Udosen</h2>
             <img
                 className='avatar-two'
-                src='/img/avatar.png'
+                src='/img/me-two.png'
                 alt='avatar'
             />
             <p className='about'> 
@@ -27,7 +27,7 @@ const Contact = () => (
                     </ListItem>
                     <ListItem>
                         <ListItemContent>
-                            <i class="fa fa-envelope" aria-hidden="true"> toyo.i.udosen@gmail.com</i>
+                            <i class="fa fa-envelope" aria-hidden="true"> <a href='mailto:toyo.i.udosen@gmail.com'>toyo.i.udosen@gmail.com</a> </i>
                         </ListItemContent>
                     </ListItem>
                 </List>
