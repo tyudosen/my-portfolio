@@ -7,7 +7,7 @@ import AppRouter from './Routers/AppRouter'
 const MyHeader = () => (
   <div className="demo-big-content">
   <Layout>
-      <Header className='header-color' title="Toyoabasi Udosen" scroll>
+      <Header className='header-color' title="Toyo Udosen" scroll>
           <Navigation>
               <NavLink to='/'>Home</NavLink>
               <NavLink to='/projects'>Projects</NavLink>

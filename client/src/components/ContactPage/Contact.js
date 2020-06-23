@@ -7,7 +7,7 @@ const Contact = () => (
     <div>
     <div className='contact-container'>
         <div className='contact-item'>
-            <h2>Toyoabasi Udosen</h2>
+            <h2>Toyo Udosen</h2>
             <img
                 className='avatar-two'
                 src='/img/me-two.png'
