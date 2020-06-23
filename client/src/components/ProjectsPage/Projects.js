@@ -1,5 +1,6 @@
 import React from 'react'
 import './Projects.css'
+import Footer from '../Footer/Footer'
 import {Grid, Cell, Card, CardTitle, CardActions, Button, CardMenu, IconButton, CardText} from 'react-mdl'
 
 const Projects = () => (
@@ -86,6 +87,7 @@ const Projects = () => (
             </div>
         </Cell>
     </Grid>
+    <Footer/>
     </div>
 )
 

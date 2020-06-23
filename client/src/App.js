@@ -27,10 +27,6 @@ const MyHeader = () => (
           <div className="page-content" />
             <AppRouter/>
       </Content>
-      <Footer className='footer' size="mini">
-      <FooterSection type="left" logo="Created by Toyo Udosen">
-      </FooterSection>
-  </Footer>
   </Layout>
   
 </div>

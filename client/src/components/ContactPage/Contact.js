@@ -1,8 +1,10 @@
 import React from 'react'
 import { List, ListItem, ListItemContent } from 'react-mdl'
+import Footer from '../Footer/Footer'
 import './Contact.css'
 
 const Contact = () => (
+    <div>
     <div className='contact-container'>
         <div className='contact-item'>
             <h2>Toyoabasi Udosen</h2>
@@ -15,7 +17,7 @@ const Contact = () => (
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fermentum tristique justo, eget consequat nulla sagittis eget. Curabitur quis sollicitudin magna, a euismod sem. Fusce mollis placerat metus, sed volutpat ipsum lobortis eget. Vestibulum ac nisl neque. Maecenas a molestie leo, a lacinia nisl. Proin dolor augue, rhoncus in molestie eget, convallis in elit. Ut sem ante, cursus molestie mollis vitae, tempor a ex. Pellentesque eu porta enim. Mauris eros purus, gravida vel lacinia in, vehicula sed leo. In sed dui nunc. Aenean vitae magna magna. Etiam maximus pulvinar felis a vulputate. 
             </p>
         </div>
-        <div className='contact-item'>
+        <div className='contact-item contact-center'>
             <h2>Contact Me</h2>
             <hr/>
             <div className='contact-list'>
@@ -33,6 +35,8 @@ const Contact = () => (
                 </List>
             </div>
         </div>
+    </div>
+    <Footer/>
     </div>
 )
 
