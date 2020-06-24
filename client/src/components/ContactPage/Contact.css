@@ -35,6 +35,11 @@
   justify-content: center;
 }
 
+.contact-list i {
+  font-size: 66px;
+  padding-right: 5rem;
+}
+
 .about {
   padding: 2em;
   text-align: center;
@@ -44,6 +49,15 @@
   border-top: 5px dotted black;
   width: 50%;
   margin: auto;
+}
+
+.contact-item h2 {
+  font-weight: bold;
+  font-family: "Anton", sans-serif;
+}
+
+.contact-item p {
+  font-family: "Oxygen", sans-serif;
 }
 
 .about {
@@ -68,6 +82,5 @@
 
 @media (min-width: 800px) {
   .contact-center {
-    padding-top: 180px;
   }
 }

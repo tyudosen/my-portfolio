@@ -7,9 +7,12 @@ const MainPage = () => (
   <div>
     <div className="banner">
       <div className="text-banner">
-        <h2>Full Stack Developer</h2>
+        <h1>Full Stack Developer</h1>
         <hr />
-        <p>JavaScript | NodeJs | React | HTML/CSS | Express | MongoDB</p>
+        <p>
+          JavaScript | NodeJs | React | React Native | HTML/CSS | Express |
+          MongoDB
+        </p>
 
         <div className="social-links">
           <a
