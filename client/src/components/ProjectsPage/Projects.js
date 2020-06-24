@@ -223,11 +223,60 @@ const Projects = () => (
                 border
                 style={{ display: "flex", justifyContent: "center" }}
               >
-                <Button colored ripple>
+                <Button
+                  href="https://github.com/tyudosen/Indecision-App"
+                  target="_blank"
+                  colored
+                  ripple
+                >
                   Github
                 </Button>
-                <Button colored ripple>
-                  Live Demo
+              </CardActions>
+              <CardMenu style={{ color: "#fff" }}></CardMenu>
+            </Card>
+          </div>
+
+          <div className="project-card">
+            <Card
+              className="project-card"
+              shadow={5}
+              style={{ minWidth: "450", margin: "auto" }}
+            >
+              <CardTitle
+                style={{
+                  color: "#fff",
+                  height: "176px",
+                  background:
+                    "url(https://d3jh33bzyw1wep.cloudfront.net/s3/W1siZiIsIjIwMTgvMDkvMTAvMDkvMDgvNDEvOTczL25vZGUtcmVhY3QuanBlZyJdLFsicCIsInRodW1iIiwiODAweDY1MFx1MDAzYyJdXQ) center / cover",
+                }}
+              >
+                Portfolio Site
+              </CardTitle>
+              <CardText style={{ height: "450px" }}>
+                <ul>
+                  <li>
+                    Developed a portfolio site with React, HTML, CSS, NodeJs and
+                    Express.
+                  </li>
+                  <li>
+                    <span style={{ textDecorationLine: "underline" }}>
+                      Utilized
+                    </span>
+                    : React,HTML, CSS, NodeJs, Express
+                  </li>
+                </ul>
+              </CardText>
+              <CardActions
+                border
+                style={{ display: "flex", justifyContent: "center" }}
+              >
+                <Button
+                  href="https://github.com/tyudosen/my-portfolio"
+                  target="_blank"
+                  colored
+                  ripple
+                >
+                  Github
                 </Button>
               </CardActions>
               <CardMenu style={{ color: "#fff" }}></CardMenu>
