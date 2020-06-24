@@ -36,8 +36,18 @@
 }
 
 .contact-list i {
-  font-size: 66px;
+  font-size: 60px;
   padding-right: 5rem;
+}
+
+.item-content {
+  font-size: 30px;
+  font-family: "Anton";
+}
+
+.item-content-two {
+  font-size: 25px;
+  font-family: "Anton";
 }
 
 .about {
@@ -77,6 +87,21 @@
 
   .about {
     padding-top: 2em;
+  }
+
+  .item-content {
+    font-size: 30px;
+    font-family: "Anton";
+  }
+
+  .item-content-two {
+    font-size: 18px;
+    font-family: "Anton";
+  }
+
+  .contact-list i {
+    font-size: 36px;
+    padding-right: 2rem;
   }
 }
 

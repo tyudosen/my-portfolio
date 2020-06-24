@@ -23,17 +23,13 @@ const Contact = () => (
         <div className="contact-list">
           <List>
             <ListItem>
-              <ListItemContent
-                style={{ fontSize: "30px", fontFamily: "Anton" }}
-              >
+              <ListItemContent className="item-content">
                 <i class="fa fa-phone-square" aria-hidden="true" />1 (346)
                 252-2540
               </ListItemContent>
             </ListItem>
             <ListItem>
-              <ListItemContent
-                style={{ fontSize: "25px", fontFamily: "Anton" }}
-              >
+              <ListItemContent className="item-content-two">
                 <i class="fa fa-envelope" aria-hidden="true" />
                 <a href="mailto:toyo.i.udosen@gmail.com">
                   toyo.i.udosen@gmail.com
