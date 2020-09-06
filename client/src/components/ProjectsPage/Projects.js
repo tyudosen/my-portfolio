@@ -25,6 +25,7 @@ const Projects = () => (
               style={{ minWidth: "450", margin: "auto" }}
             >
               <CardTitle
+                className="card-title"
                 style={{
                   color: "#fff",
                   height: "176px",
@@ -69,6 +70,7 @@ const Projects = () => (
           <div className="project-card">
             <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
               <CardTitle
+                className="card-title"
                 style={{
                   color: "#fff",
                   height: "176px",
@@ -131,6 +133,7 @@ const Projects = () => (
               style={{ minWidth: "450", margin: "auto" }}
             >
               <CardTitle
+                className="card-title"
                 style={{
                   color: "#fff",
                   height: "176px",
@@ -188,6 +191,7 @@ const Projects = () => (
               style={{ minWidth: "450", margin: "auto" }}
             >
               <CardTitle
+                className="card-title"
                 style={{
                   color: "#fff",
                   height: "176px",
@@ -243,6 +247,7 @@ const Projects = () => (
               style={{ minWidth: "450", margin: "auto" }}
             >
               <CardTitle
+                className="card-title"
                 style={{
                   color: "#fff",
                   height: "176px",
@@ -291,6 +296,7 @@ const Projects = () => (
               style={{ minWidth: "450", margin: "auto" }}
             >
               <CardTitle
+                className="card-title"
                 style={{
                   color: "#fff",
                   height: "176px",
@@ -320,6 +326,112 @@ const Projects = () => (
               >
                 <Button
                   href="https://github.com/tyudosen/my-portfolio"
+                  target="_blank"
+                  colored
+                  ripple
+                >
+                  Github
+                </Button>
+              </CardActions>
+              <CardMenu style={{ color: "#fff" }}></CardMenu>
+            </Card>
+          </div>
+
+          <div className="project-card">
+            <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+              <CardTitle
+                className="card-title"
+                style={{
+                  color: "#fff",
+                  height: "176px",
+                  background:
+                    "url(https://cdn0.iconfinder.com/data/icons/long-shadow-web-icons/512/nodejs-512.png) center / cover",
+                }}
+              >
+                Travel Log
+              </CardTitle>
+              <CardText style={{ height: "450px" }}>
+                <ul>
+                  <li>
+                    A one page application that displays a map allowing a user
+                    to add locations they have visited
+                  </li>
+                  <li>Consumed data from Mapbox API</li>
+                  <li>MongoDB database used to store location information</li>
+                  <li>
+                    <span style={{ textDecorationLine: "underline" }}>
+                      Utilized
+                    </span>
+                    : NodeJs, Express,Mongoose, Mapbox
+                  </li>
+                </ul>
+              </CardText>
+              <CardActions
+                border
+                style={{ display: "flex", justifyContent: "center" }}
+              >
+                <Button
+                  href="https://github.com/tyudosen/coding-gardern-tarvel-log"
+                  target="_blank"
+                  colored
+                  ripple
+                >
+                  Github
+                </Button>
+              </CardActions>
+              <CardMenu style={{ color: "#fff" }}></CardMenu>
+            </Card>
+          </div>
+
+          <div className="project-card">
+            <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+              <CardTitle
+                className="card-title"
+                style={{
+                  color: "#fff",
+                  height: "176px",
+                  background:
+                    "url(https://cdn0.iconfinder.com/data/icons/long-shadow-web-icons/512/nodejs-512.png) center / cover",
+                }}
+              >
+                Data Visualization
+              </CardTitle>
+              <CardText style={{ height: "450px" }}>
+                <ul>
+                  <li>
+                    A one page application that shows a data visualization of
+                    global temperatures compared against average mean
+                    temperature from the{" "}
+                    {
+                      <a
+                        href="https://data.giss.nasa.gov/gistemp/"
+                        target="_blank"
+                      >
+                        Table of Global and Hemispheric Monthly Means and Annual
+                        Means
+                      </a>
+                    }{" "}
+                    updated by NASA.
+                  </li>
+                  <li>
+                    Fetched data from local directory. Future updates will
+                    include a backend that responds with updated JSON data
+                  </li>
+                  <li>ChartJS used to draw chart on a canvas element</li>
+                  <li>
+                    <span style={{ textDecorationLine: "underline" }}>
+                      Utilized
+                    </span>
+                    :HTML, JavaScript, ChartJS
+                  </li>
+                </ul>
+              </CardText>
+              <CardActions
+                border
+                style={{ display: "flex", justifyContent: "center" }}
+              >
+                <Button
+                  href="https://github.com/tyudosen/NASA-global-temp-csv"
                   target="_blank"
                   colored
                   ripple

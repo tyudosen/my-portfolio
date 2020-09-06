@@ -1,10 +1,14 @@
-.projects-grid{
+.projects-grid {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 
 }
 
-.project-card{
+.project-card {
     margin: 20px;
+}
+
+.card-title {
+    color: red
 }
