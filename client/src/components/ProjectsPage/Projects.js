@@ -422,7 +422,7 @@ const Projects = () => (
                     <span style={{ textDecorationLine: "underline" }}>
                       Utilized
                     </span>
-                    :HTML, JavaScript, ChartJS
+                    :HTML, JavaScript, ChartJS.
                   </li>
                 </ul>
               </CardText>
