@@ -19,6 +19,54 @@ const Projects = () => (
       <Cell col={12}>
         <div className="projects-grid">
           <div className="project-card">
+            <Card
+              className="project-card"
+              shadow={5}
+              style={{ minWidth: "450", margin: "auto" }}
+            >
+              <CardTitle
+                style={{
+                  color: "#fff",
+                  height: "176px",
+                  background:
+                    "url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.cRFhIBaXVYysx0aApKC2ggHaEK%26pid%3DApi&f=1) center / cover",
+                }}
+              >
+                Base Blocks
+              </CardTitle>
+              <CardText style={{ height: "450px" }}>
+                <ul>
+                  <li>
+                    Worked with a team of 4 to develop an arithmetic game for
+                    the library of virtual manipulatives at Sam Houston State
+                    University
+                  </li>
+                  <li>
+                    <span style={{ textDecorationLine: "underline" }}>
+                      Utilized
+                    </span>
+                    : Unity Engine, C#, Firebase
+                  </li>
+                </ul>
+              </CardText>
+              <CardActions
+                border
+                style={{ display: "flex", justifyContent: "center" }}
+              >
+                <Button
+                  href="https://github.com/tyudosen/Base-Blocks"
+                  target="_blank"
+                  colored
+                  ripple
+                >
+                  Github
+                </Button>
+              </CardActions>
+              <CardMenu style={{ color: "#fff" }}></CardMenu>
+            </Card>
+          </div>
+
+          <div className="project-card">
             <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
               <CardTitle
                 style={{
