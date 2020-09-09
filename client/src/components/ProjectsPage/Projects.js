@@ -356,8 +356,10 @@ const Projects = () => (
                     A one page application that displays a map allowing a user
                     to add locations they have visited
                   </li>
+                  <li>Backend created with NodeJs</li>
                   <li>Consumed data from Mapbox API</li>
                   <li>MongoDB database used to store location information</li>
+                  <li>Deployed with now.sh</li>
                   <li>
                     <span style={{ textDecorationLine: "underline" }}>
                       Utilized
@@ -371,12 +373,20 @@ const Projects = () => (
                 style={{ display: "flex", justifyContent: "center" }}
               >
                 <Button
-                  href="https://github.com/tyudosen/coding-gardern-tarvel-log"
+                  href="https://github.com/tyudosen/travel-log"
                   target="_blank"
                   colored
                   ripple
                 >
                   Github
+                </Button>
+                <Button
+                  href="https://travelogue.tyudosen.vercel.app/"
+                  target="_blank"
+                  colored
+                  ripple
+                >
+                  Live Demo
                 </Button>
               </CardActions>
               <CardMenu style={{ color: "#fff" }}></CardMenu>
